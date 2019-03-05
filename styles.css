@@ -1,0 +1,133 @@
+body{
+  background: linear-gradient(180deg, #3f51b5, #00bcd4);
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  /*border-top: 100vh solid transparent;
+  border-left: 100vh solid #fff;
+  opacity: 0.1;*/
+
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+.left{
+  background-color: #333;
+  padding: 20px;
+  float: left;
+  width: 20%;
+  text-align: center;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+.main{
+  background-color: #333;
+  padding: 20px;
+  float: left;
+  width: 60%;
+  text-align: center;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+.right{
+  background-color: #333;
+  padding: 20px;
+  float: left;
+  width: 20%;
+  text-align: center;
+  transition: 0.9s;
+  text-transform: uppercase;
+}
+
+/*The hover effect*/
+.left a:hover{
+  background-color: #fff;
+  text-align: center;
+  color: #333;
+  padding: 10px;
+  transition: 0.5s;
+
+}
+.main a:hover{
+  background-color: #fff;
+  color:#333;
+  text-align: center;
+  padding: 10px;
+  transition: 0.5s;
+
+}
+.right a:hover{
+  background-color: #fff;
+  color:#333;
+  text-align: center;
+  padding: 10px;
+  transition: 0.5s;
+
+}
+@media screen and (max-width:800px){
+  .left, .main, .right {
+    width:100%;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  transition: 0.5s
+}
+.fa:hover {
+    opacity: 1;
+    background: #fff;
+    color: #333;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.fa-facebook {
+
+  color: white;
+}
+.fa-youtube {
+
+  color: white;
+}
+
+.fa-instagram {
+
+  color: white;
+}
+.card{
+  background: #333;
+  padding: 25px;
+  margin-top: 40px;
+  overflow: auto;
+  white-space: nowrap;
+  font-family: arial;
+  font-style: oblique;
+  color: #fff;
+}
+.card p {
+  text-align: center;
+}
+.card a:hover {
+  color: dodgerblue;
+}
